@@ -4,7 +4,8 @@ require 'photocopier/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'photocopier'
-  spec.version       = Photocopier::VERSION
+  # spec.version       = Photocopier::VERSION
+  spec.version       = '1.4.0-netssh7'
   spec.authors       = ['Stefano Verna', 'Ju Liu', 'Fabrizio Monti']
   spec.email         = ['stefano.verna@welaika.com', 'ju.liu@welaika.com',
                         'fabrizio.monti@welaika.com']
@@ -29,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'net-ftp', '~> 0.1.3'
   spec.add_dependency 'net-scp', '~> 3.0'
   spec.add_dependency 'net-sftp', '~> 3.0'
-  spec.add_dependency 'net-ssh', '~> 6.1'
+  spec.add_dependency 'net-ssh', '7.2.0'
   spec.add_dependency 'net-ssh-gateway', '~> 2.0'
 
   spec.add_development_dependency 'bundler', '~> 2.2'
